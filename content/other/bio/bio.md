@@ -1,4 +1,4 @@
-# Introduction
+# Introduction salut c'est claire 
 
 Bienvenue sur HOPLA, un blog dédié à l'indépendance financière et à la retraite anticipé.
 Commencons par jouer à un petit jeux et voyons si vous vous reconnaissez dans les situations suivantes:
