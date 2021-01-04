@@ -1,28 +1,32 @@
 import { graphql, Link } from 'gatsby';
-import React, { useState } from 'react';
+import React from 'react';
 
-import Intro from '../components/intro';
+import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
 const BlogIndex = ({ data, location }) => {
-  const [showIntro, setShowIntro] = useState(false);
-
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
-  const toggleIntro = () => setShowIntro(!showIntro)
+
+  if (posts.length === 0) {
+    return (
+      <Layout location={location} title={siteTitle}>
+        <SEO title="All posts" />
+        <Bio />
+        <p>
+          No blog posts found. Add markdown posts to "content/blog" (or the
+          directory you specified for the "gatsby-source-filesystem" plugin in
+          gatsby-config.js).
+        </p>
+      </Layout>
+    )
+  }
 
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <p>
-        Bienvenue sur HOPLA, un blog dédié à l'indépendance financière et à la retraite anticipé.
-        Chacun a ses raisons pour essayer d'atteindre l'indépendance financière. Comme beaucoup, peut-être que votre travail ne vous intéresse plus, peut-être que vous voulez assurer l'avenir de votre famille, peut-être que vous ne comprenez pas pourquoi nous sommes censés passer la plupart de notre vie d'adulte à travailler.
-      </p>
-      <div onClick={toggleIntro}>Lisez la suite...</div>
-
-      { showIntro ? <Intro /> : null }
-
+      <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
@@ -67,7 +71,7 @@ export const pageQuery = graphql`
       siteMetadata {
         title
       }
-    },
+    }
     allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(blog)/"  }}, sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
         excerpt
@@ -83,3 +87,4 @@ export const pageQuery = graphql`
     }
   }
 `
+

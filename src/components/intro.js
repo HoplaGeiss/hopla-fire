@@ -1,23 +1,23 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 
-const Bio = () => {
+const Intro = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      markdownRemark(fileAbsolutePath: {regex: "/(other/bio/bio.md)/"}) {
+      markdownRemark(fileAbsolutePath: {regex: "/(other/intro)/"}) {
         html
       }
     }
   `)
 
-  const bio = data.markdownRemark
+  const intro = data.markdownRemark
 
   return (
     <section
-          dangerouslySetInnerHTML={{ __html: bio.html }}
+          dangerouslySetInnerHTML={{ __html: intro.html }}
           itemProp="articleBody"
         />
   )
 }
 
-export default Bio
+export default Intro
