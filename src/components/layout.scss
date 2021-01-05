@@ -1,0 +1,25 @@
+.global-wrapper {
+  margin: $spacing-0 auto;
+  max-width: $maxWidth-wrapper;
+  padding: $spacing-10 $spacing-5;
+}
+
+.global-wrapper[data-is-root-path="true"] .bio {
+  margin-bottom: $spacing-20;
+}
+
+.global-header {
+  margin-bottom: $spacing-12;
+}
+
+.main-heading {
+  font-size: $fontSize-7;
+  margin: 0;
+}
+
+.header-link-home {
+  font-weight: $fontWeight-bold;
+  font-family: $font-heading;
+  text-decoration: none;
+  font-size: $fontSize-2;
+}

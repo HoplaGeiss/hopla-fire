@@ -77,6 +77,14 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-catch-links`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        data: `@import "${__dirname}/src/variables";`,
+      }
+    }
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

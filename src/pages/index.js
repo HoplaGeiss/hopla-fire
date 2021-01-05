@@ -1,27 +1,20 @@
+import './index.scss';
+
 import { graphql, Link } from 'gatsby';
-import React, { useState } from 'react';
+import React from 'react';
 
 import Intro from '../components/intro';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
 const BlogIndex = ({ data, location }) => {
-  const [showIntro, setShowIntro] = useState(false);
-
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
-  const toggleIntro = () => setShowIntro(!showIntro)
 
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <p>
-        Bienvenue sur HOPLA, un blog dédié à l'indépendance financière et à la retraite anticipé.
-        Chacun a ses raisons pour essayer d'atteindre l'indépendance financière. Comme beaucoup, peut-être que votre travail ne vous intéresse plus, peut-être que vous voulez assurer l'avenir de votre famille, peut-être que vous ne comprenez pas pourquoi nous sommes censés passer la plupart de notre vie d'adulte à travailler.
-      </p>
-      <div onClick={toggleIntro}>Lisez la suite...</div>
-
-      { showIntro ? <Intro /> : null }
+      <Intro/>
 
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {

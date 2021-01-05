@@ -1,3 +1,5 @@
+import './blog-post.scss';
+
 import { graphql, Link } from 'gatsby';
 import React from 'react';
 

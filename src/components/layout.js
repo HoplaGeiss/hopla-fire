@@ -1,5 +1,7 @@
-import React from "react"
-import { Link } from "gatsby"
+import './layout.scss';
+
+import { Link } from 'gatsby';
+import React from 'react';
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`

@@ -37,7 +37,7 @@ Taux d'épargne	| Années avant l'indépendance financière
 80%	|5.69
 90%	|2.69
 
-Actuellement l'age moyen de la retraite en France est de 62.8 ans et celui du premier emplois est de 23 ans. Ce qui donne environ 40 années d'épargne avant la retraite. Donc pour suivre ce schéma classique, il vous faudra épargner environ 19% de vos revenus.
+Actuellement l'age moyen de la retraite en France est de 62.8 ans et celui du premier emplois est de 23 ans. Ce qui donne environ 40 années d'épargne avant la retraite. Donc pour suivre ce schéma classique, il vous faudra épargner environ 21% de vos revenus.
 
 Biensur ce chiffre est à prendre comment une simple indication. Il est très simplifié puisque il sous entend des dépenses constante et un taux d'épargne constant du moment du premier emplois jusqu'à la retraite. Néanmoins plus vous progresser dans votre carrière et plus votre vie privé ce stabilise, plus ce tableaux devient exact.
 
@@ -63,6 +63,16 @@ Taux d'épargne	| Années avant l'indépendance financière
 90%	|2.63
 
 Wahoou, tenez vous bien à votre chaise, avec 7% de taux d'intérêts il vous faut maintenant seulement 9% de taux d'épargne pour suivre le schéma classique de retraite à 62.8 ans.
+
+Faisons rapidement un tableau récapitulatif des différence entre 4% et 7% de taux d'intérêts.
+
+Années avant l'indépendance financière | Taux d'épargne avec 4% d'intérêts | Taux d'épargne avec 7% d'intérêts
+:-|:-|:-
+40 | 21% | 11%
+30 | 30% | 20%
+20 | 45% | 38%
+10 | 68% | 65%
+
 
 Il y a beaucoup de ressources sur internet de la communité FIRE, notamment sur des sites Américains, où les internautes compares leur taux d'épargne. Tout dépends biensur de votre situation familiale, de votre localisation, de votre travail et de vos valeurs mais en règle générale les taux varie entre 35% et 65%. Donc avec 4% de taux d'intérêts, cela correspond à entre 10.98 et 26.77 années pour être indépendant financièrement. Ce qui est déjà beaucoup mieux que les 40 années du schéma classique.
 
