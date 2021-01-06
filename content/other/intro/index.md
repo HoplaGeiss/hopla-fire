@@ -38,23 +38,24 @@ Comme le laisse sous-entendre, la règle des 4% se base sur un retour d'investis
 
 - [Rendement annuel de la bourse depuis les dernière 60 années](/rendement-historique-bourse)
 - [la magie des intérêts cumulé](/magie-des-interets-cumule)
-- [Combien de temps vous faudrat-il pour atteindre l'indépendance financière](/temps-avant-idependance-financiere)
+- [Combien de temps vous faudrat-il pour atteindre l'indépendance financière](/temps-avant-independance-financiere)
+- [Pourquoi je ne compte pas sur la caisse de retraite](/pourquoi-ne-pas-compter-sur-la-caisse-de-retraite)
 
 Certains de mes post les plus intéressant sur ce blog vont être au sujet de petites astuces pour vous permettre d'atteindre votre indépendance financière plus rapidement. Il y a deux façons d'épargner plus : mieux investir son épargne et dépenser moins.
 
 Mieux investir :
-- [Investissement locatif vs investissement boursier vs investissement en crypto monnaie (en progrès)]()
-- [Les meilleurs plateforme pour investir en bourses (en progrès)]()
-- [Dollar cost averaging (en progrès)]()
-- [Black Swan events (en progrès)]()
-- [Réduire vos taxes (en progrès)]()
-- [Éviter à tous prix les frais sur vos investissements (en progrès)]()
-- [Profiter des aides de l'états (en progrès)]()
+- Investissement locatif vs investissement boursier vs investissement en crypto monnaie (en progrès)
+- Les meilleurs plateforme pour investir en bourses (en progrès)
+- Dollar cost averaging (en progrès)
+- Black Swan events (en progrès)
+- Réduire vos taxes (en progrès)
+- Éviter à tous prix les frais sur vos investissements (en progrès)
+- Profiter des aides de l'états (en progrès)
 
 Dépenser moins :
-- [Analyser ses dépenses (en progrès)]()
-- [Choisir un compte bancaire sans frais (en progrès)]()
-- [Choisir une carte de crédit avec de bon avantage (en progrès)]()
-- [Acheter ou louer un appartement / une maison (en progrès)]()
-- [Dépenser moins en frais bancaire à l'étranger (en progrès)]()
+- Analyser ses dépenses (en progrès)
+- Choisir un compte bancaire sans frais (en progrès)
+- Choisir une carte de crédit avec de bon avantage (en progrès)
+- Acheter ou louer un appartement / une maison (en progrès)
+- Dépenser moins en frais bancaire à l'étranger (en progrès)
 
