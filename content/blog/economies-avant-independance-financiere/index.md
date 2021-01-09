@@ -14,7 +14,7 @@ Le but de l'indépendance financière est de pouvoir vivre grâce au revenu pass
 
 'dépense annuelle = rendement investissement * économies'
 
-Exprimons maintenant les économies comme un facteur "N" des dépenses annuelles :
+Exprimons maintenant les économies comme un facteur 'N' des dépenses annuelles :
 
 'économies = n * dépenses annuelles'
 
@@ -22,7 +22,7 @@ Donc notre formule initiale devient :
 
 'dépense annuelle = rendement investissement * N * dépenses annuelles'
 
-Donc, "N = 1 / rendement investissement"
+Donc, 'N = 1 / rendement investissement'
 
 Prenons maintenant un exemple, si l'on utilise 4% pour le rendement des investissements, on obtient "N = 1/4% = 25". Tout devient clair ! Cette formule donne le nombre de fois qu'il faut économiser votre dépense annuelle en fonction du rendement de vos investissements.
 
