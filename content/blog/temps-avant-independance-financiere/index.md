@@ -4,7 +4,7 @@ date: "2015-05-01T22:12:03.284Z"
 description: "Combien de temps vous faudrat-il pour atteindre l'indépendance financière"
 ---
 
-Comme expliqué dans mon post précédent sur la [règle des 4%](), le plus important pour atteindre l'indépendance financière est votre dépense annuel, puisque votre objectif est d'atteindre 25 fois celle-ci.
+Comme expliqué dans mon post précédent sur la [règle des 4%](/economies-avant-independance-financiere), le plus important pour atteindre l'indépendance financière est votre dépense annuel, puisque votre objectif est d'atteindre 25 fois celle-ci.
 
 Le taux d'épargne est ce qui détermine à quelle vitesse vous serrez indépendant financièrement. Personnellement c'est ce que je trouve fantastique avec le mouvement FIRE, il n'est pas nécessaire de gagner des milles et des cent, d'ailleurs beaucoup d'adepte du mouvement ont des revenus relativement moyens. Vus que ce qui compte c'est le taux d'épargne, combien vous dépensé est aussi important que ce que vous gagné. Du coup ceux qui vivent un train de vie raisonnable et qui privilégie ce qui leur importe vraiment, on tout autant accès à l'indépendance financière que ceux qui gagnent exceptionnellement bien leurs vies.
 
