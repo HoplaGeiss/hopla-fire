@@ -4,7 +4,7 @@ date: "2015-05-01T22:12:03.284Z"
 description: "Rendement annuel de la bourse depuis un siècle"
 ---
 
-Pour faire fructifier vos économies, vous avez plusieurs options dont investir en action / index, investissement locatif, investissement en crypto-monnaie, investissement en minerais, etc... L'un des plus importants facteurs de comparaison est bien évidement le rendement annuel.
+Pour faire fructifier vos économies, vous avez plusieurs options dont investir en action / index, investissement locatif, investissement en crypto-monnaie, investissement en minerais, etc... L'un des plus importants facteurs de comparaison est bien évidemment le rendement annuel.
 
 Pour analyser le rendement historique de l'investissement en action / index, le plus pertinent est d'étudier le S&P 500.
 C'est un indice d'une capitalisation colossale de plus de 31 billions, qui suit les 500 plus grandes entreprises américaines. Il existe depuis 1926, mais à l'époque il n'était composé que de 90 entreprises, ce n'est qu'en 1957 qu'il est passé à 500 entreprises.
