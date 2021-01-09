@@ -1,10 +1,10 @@
 ---
-titre: Combien vous faut-il économiser avant de pouvoir prendre votre retraite ?
-données: "2015-05-01T22:12:03.284Z"
-description: "Un bon moyen de calculer votre "chiffre magique", c'est-à-dire le moment où vous pourrez vous permettre de quitter votre boulot et vous consacrer à ce qui vous intéresse dans la vie, c'est d'utiliser la règle des 4%."
+Title: Combien vous faut-il économiser avant de pouvoir prendre votre retraite ?
+Date: "2015-05-01T22:12:03.284Z"
+description: 'Un bon moyen de calculer votre 'chiffre magique', c'est-à-dire le moment où vous pourrez vous permettre de quitter votre boulot et vous consacrer à ce qui vous intéresse dans la vie, c'est d'utiliser la règle des 4%.'
 ---
 
-Un bon moyen de calculer votre "chiffre magique", c'est-à-dire le moment où vous pourrez vous permettre de quitter votre boulot, et vous consacrer à ce qui vous intéresse dans la vie, c'est d'utiliser la règle des 4%.
+Un bon moyen de calculer votre 'chiffre magique', c'est-à-dire le moment où vous pourrez vous permettre de quitter votre boulot, et vous consacrer à ce qui vous intéresse dans la vie, c'est d'utiliser la règle des 4%.
 
 J'irai jusqu'à dire que la règle des 4% est le fondement de la communauté FIRE (indépendance financière et retraite anticipée). Elle stipule que si vous économisez vingt-cinq fois votre dépense annuelle, vous pourrez vivre indéfiniment des intérêts générés par vos investissements. Indéfiniment signifie qu'à partir de ce moment-là, votre revenu passif dépasse vos dépenses annuelles, et vous ne devriez plus avoir besoin de toucher à votre capital.
 
@@ -12,15 +12,15 @@ Essayons maintenant de voir sur quoi ce base cette règle.
 
 Le but de l'indépendance financière est de pouvoir vivre grâce au revenu passif :
 
-"dépense annuelle = rendement investissement * économies"
+'dépense annuelle = rendement investissement * économies'
 
 Exprimons maintenant les économies comme un facteur "N" des dépenses annuelles :
 
-"économies = n * dépenses annuelles"
+'économies = n * dépenses annuelles'
 
 Donc notre formule initiale devient :
 
-"dépense annuelle = rendement investissement * N * dépenses annuelles"
+'dépense annuelle = rendement investissement * N * dépenses annuelles'
 
 Donc, "N = 1 / rendement investissement"
 
