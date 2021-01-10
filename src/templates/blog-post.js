@@ -33,30 +33,16 @@ const BlogPostTemplate = ({ data, location }) => {
         <hr />
       </article>
       <nav className="blog-post-nav">
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
+        {previous && (
+          <Link to={previous.fields.slug} rel="prev" class="prev">
+            ← {previous.frontmatter.title}
+          </Link>
+        )}
+        {next && (
+          <Link to={next.fields.slug} rel="next" class="next">
+            {next.frontmatter.title} →
+          </Link>
+        )}
       </nav>
     </Layout>
   )
@@ -85,7 +71,7 @@ export const pageQuery = graphql`
         description
       }
     }
-    previous: markdownRemark(id: { eq: $previousPostId }) {
+    previous: markdownRemark(id: { eq: $previousPostId }, fileAbsolutePath: {regex: "/(blog)/"}) {
       fields {
         slug
       }
@@ -93,7 +79,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    next: markdownRemark(id: { eq: $nextPostId }) {
+    next: markdownRemark(id: { eq: $nextPostId }, fileAbsolutePath: {regex: "/(blog)/"}) {
       fields {
         slug
       }

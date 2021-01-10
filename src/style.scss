@@ -99,24 +99,20 @@ p {
   line-height: $lineHeight-relaxed;
   --baseline-multiplier: 0.179;
   --x-height-multiplier: 0.35;
-  margin: $spacing-0 $spacing-0 $spacing-8 $spacing-0;
+  margin: $spacing-0 $spacing-0 $spacing-5 $spacing-0;
   padding: $spacing-0;
 }
 
 ul,
 ol {
-  margin-left: $spacing-0;
-  margin-right: $spacing-0;
   padding: $spacing-0;
-  margin-bottom: $spacing-8;
-  list-style-position: outside;
-  list-style-image: none;
+  margin: 0 0 $spacing-5 $spacing-5;
 }
 
 ul li,
 ol li {
   padding-left: $spacing-0;
-  margin-bottom: $spacing-2;
+  margin-bottom: $spacing-1;
 }
 
 li > p {
@@ -161,6 +157,7 @@ table {
 
 table thead tr th {
   border-bottom: 1px solid $color-accent;
+  color: $color-primary;
 }
 
 /* Link */

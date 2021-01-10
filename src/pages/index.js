@@ -16,7 +16,7 @@ const BlogIndex = ({ data, location }) => {
       <SEO title="All posts" />
       <Intro/>
 
-      <ol style={{ listStyle: `none` }}>
+      <ol className="post-list">
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 

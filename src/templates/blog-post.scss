@@ -7,6 +7,18 @@
   font-family: $font-heading;
 }
 
-.blog-post-nav ul {
-  margin: $spacing-0;
+.blog-post-nav {
+  display: flex;
+  justify-content: space-between;
+
+  .prev {
+    padding-right: 10px;
+    flex-grow: 1;
+  }
+
+  .next {
+    padding-left: 10px;
+    flex-grow: 1;
+    text-align: end;
+  }
 }
