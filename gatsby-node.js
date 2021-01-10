@@ -18,7 +18,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           nodes {
             id
             fields {
-              slug
+              slug,
+              date
             }
           }
         }
@@ -62,13 +63,21 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const slug = createFilePath({ node, getNode })
+    const separtorIndex = ~slug.indexOf("--") ? slug.indexOf("--") : 0;
+    const shortSlugStart = separtorIndex ? separtorIndex + 2 : 0;
 
     createNodeField({
       name: `slug`,
       node,
-      value,
-    })
+      value: `${separtorIndex ? "/" : ""}${slug.substring(shortSlugStart)}`
+    });
+
+    createNodeField({
+      node,
+      name: `date`,
+      value: separtorIndex ? slug.substring(1, separtorIndex) : ""
+    });
   }
 }
 

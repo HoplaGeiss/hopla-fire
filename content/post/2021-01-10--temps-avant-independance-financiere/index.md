@@ -1,6 +1,5 @@
 ---
 title: Combien de temps vous faudra-il pour atteindre l'indépendance financière
-date: "2015-05-01T22:12:03.284Z"
 description: "Combien de temps vous faudra-il pour atteindre l'indépendance financière"
 ---
 

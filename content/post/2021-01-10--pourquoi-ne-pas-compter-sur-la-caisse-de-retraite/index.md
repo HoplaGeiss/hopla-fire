@@ -1,6 +1,5 @@
 ---
 title: Pourquoi je ne compte pas sur la caisse de retraite
-date: "2015-05-01T22:12:03.284Z"
 description: "Pourquoi je ne compte pas sur la caisse de retraite"
 ---
 

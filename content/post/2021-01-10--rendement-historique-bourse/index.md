@@ -1,6 +1,5 @@
 ---
 title: Rendement annuel de la bourse depuis les dernières 60 années
-date: "2015-05-01T22:12:03.284Z"
 description: "Rendement annuel de la bourse depuis un siècle"
 ---
 
