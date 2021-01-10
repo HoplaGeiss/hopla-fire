@@ -1,24 +1,24 @@
 ---
-title: Combien de temps vous faudrat-il pour atteindre l'indépendance financière
+title: Combien de temps vous faudra-il pour atteindre l'indépendance financière
 date: "2015-05-01T22:12:03.284Z"
-description: "Combien de temps vous faudrat-il pour atteindre l'indépendance financière"
+description: "Combien de temps vous faudra-il pour atteindre l'indépendance financière"
 ---
 
-Comme expliqué dans mon post précédent sur la [règle des 4%](/economies-avant-independance-financiere), le plus important pour atteindre l'indépendance financière est votre dépense annuel, puisque votre objectif est d'atteindre 25 fois celle-ci.
+Comme expliqué dans mon post précédent sur la [règle des 4%](/economies-avant-independance-financiere), le plus important pour atteindre l'indépendance financière est votre dépense annuelle, puisque votre objectif est d'atteindre 25 fois celle-ci.
 
-Le taux d'épargne est ce qui détermine à quelle vitesse vous serrez indépendant financièrement. Personnellement c'est ce que je trouve fantastique avec le mouvement FIRE, il n'est pas nécessaire de gagner des milles et des cent, d'ailleurs beaucoup d'adepte du mouvement ont des revenus relativement moyens. Vus que ce qui compte c'est le taux d'épargne, combien vous dépensé est aussi important que ce que vous gagné. Du coup ceux qui vivent un train de vie raisonnable et qui privilégie ce qui leur importe vraiment, on tout autant accès à l'indépendance financière que ceux qui gagnent exceptionnellement bien leurs vies.
+Le taux d'épargne est ce qui détermine à quelle vitesse vous serez indépendant financièrement. Personnellement, c'est ce que je trouve fantastique avec le mouvement FIRE, il n'est pas nécessaire de gagner des milles et des cents, d'ailleurs beaucoup d'adeptes du mouvement ont des revenus relativement moyens. Vu que ce qui compte est le taux d'épargne, ce que vous dépensez est aussi important que ce que vous gagner. Du coup ceux qui ont un train de vie raisonnable et qui privilégient ce qui leur importe vraiment ont tout autant accès à l'indépendance financière, que ceux qui gagnent exceptionnellement bien leur vie.
 
-Du point de vus mathématique voici la formule de départ :
+Du point de vu mathématique, voici la formule de départ :
 
 `(1 - taux d'épargne) * 25 = (taux d'épargne) * [(1 + taux d'intérêt)^^années – 1] / (taux d'intérêt)`
 
-Notre but est d'exprimer le nombre d'années une fonction du taux d'intérêts et du taux d’épargne :
+Notre but est d'exprimer le nombre d'années en fonction du taux d'intérêt et du taux d’épargne :
 
-`(1 + taux d'intérêt)^^années = ((1 - taux d'épargne) * 25 * taux d'intérêts / taux d'épargne) + 1`
+`(1 + taux d'intérêt)^^années = ((1 - taux d'épargne) * 25 * taux d'intérêt / taux d'épargne) + 1`
 
-`années = ln[((1 - taux d'épargne) * 25 * taux d'intérêts / taux d'épargne) + 1] / ln(1 + taux d'intérêts)`
+`années = ln[((1 - taux d'épargne) * 25 * taux d'intérêt / taux d'épargne) + 1] / ln(1 + taux d'intérêt)`
 
-Prenons tout d'abord un taux d'intérêts de 4% après inflation. Voici le tableau du nombre d'années avant indépendance financière en fonction du taux d'épargne.
+Prenons tout d'abord un taux d'intérêt de 4% après inflation. Voici le tableau du nombre d'années avant indépendance financière en fonction du taux d'épargne.
 
 Taux d'épargne	| Années avant l'indépendance financière
 :-|:-
@@ -39,11 +39,11 @@ Taux d'épargne	| Années avant l'indépendance financière
 
 Actuellement l’âge moyen de la retraite en France est de 62.8 ans et celui du premier emploi est de 23 ans. Ce qui donne environ 40 années d'épargne avant la retraite. Donc pour suivre ce schéma classique, il vous faudra épargner environ 21% de vos revenus.
 
-Bien sûr ce chiffre est à prendre comment une simple indication. Il est très simplifié puisqu’il sous-entend des dépenses constantes et un taux d'épargne constant du moment du premier emplois jusqu'à la retraite. Néanmoins plus vous progresser dans votre carrière et plus votre vie privée ce stabilise, plus ce tableau devient exact.
+Bien-sûr ce chiffre est à prendre comme une simple indication. Il est très simplifié puisqu’il sous-entend des dépenses constantes et un taux d'épargne constant à partir du premier emploi jusqu'à la retraite. Néanmoins plus vous progressez dans votre carrière et plus votre vie privée se stabilise, plus ce tableau devient exact.
 
-J'espère qu'après avoir vus ce tableau vous commencé à envisager réduire vos dépenses et/ou augmenter vos gains ! C'est très intéressant surtout si vous vous trouver au début du tableau avec des taux d'épargne de de 15%, 20%, 25%. Puisque 5% d'épargne en plus vous donneront respectivement 7,6 et 5 années de retraite en plus!
+J'espère qu'après avoir vu ce tableau, vous commencerez à envisager à réduire vos dépenses et/ou augmenter vos gains ! C'est très intéressant, surtout si vous vous trouvez au début du tableau avec des taux d'épargne de 15%, 20%, 25%. Puisque 5% d'épargne en plus vous donneront respectivement 7,6 et 5 années de retraite en plus!
 
-Essayons maintenant de remplacer le taux d'intérêts par 7%. Ce qui correspond aux résultats de la bourse américaine sur les 100 dernières années après ajustement pour l'inflation.
+Essayons maintenant de remplacer le taux d'intérêt par 7%. Ce qui correspond aux résultats de la bourse américaine sur les 100 dernières années après ajustement pour l'inflation.
 
 Taux d'épargne	| Années avant l'indépendance financière
 :-|:-
@@ -62,11 +62,11 @@ Taux d'épargne	| Années avant l'indépendance financière
 80%	|5.36
 90%	|2.63
 
-Waouh, tenez-vous bien à votre chaise, avec 7% de taux d'intérêts il vous faut maintenant seulement 9% de taux d'épargne pour suivre le schéma classique de retraite à 62.8 ans.
+Waouh, tenez-vous bien à votre chaise, avec 7% de taux d'intérêt il vous faut maintenant seulement 9% de taux d'épargne pour suivre le schéma classique de retraite à 62.8 ans.
 
-Faisons rapidement un tableau récapitulatif des différences entre 4% et 7% de taux d'intérêts.
+Faisons rapidement un tableau récapitulatif des différences entre 4% et 7% de taux d'intérêt.
 
-Années avant l'indépendance financière | Taux d'épargne avec 4% d'intérêts | Taux d'épargne avec 7% d'intérêts
+Années avant l'indépendance financière | Taux d'épargne avec 4% d'intérêt | Taux d'épargne avec 7% d'intérêt
 :-|:-|:-
 40 | 21% | 11%
 30 | 30% | 20%
@@ -74,6 +74,6 @@ Années avant l'indépendance financière | Taux d'épargne avec 4% d'intérêts
 10 | 68% | 65%
 
 
-Il y a beaucoup de ressources sur internet de la communauté FIRE, notamment sur des sites Américains, où les internautes comparent leur taux d'épargne. Tout dépend bien sûr de votre situation familiale, de votre localisation, de votre travail et de vos valeurs mais en règle générale les taux varient entre 35% et 65%. Donc avec 4% de taux d'intérêts, cela correspond à entre 10.98 et 26.77 années pour être indépendant financièrement. Ce qui est déjà beaucoup mieux que les 40 années du schéma classique.
+Il y a beaucoup de ressources sur internet de la communauté FIRE, notamment sur des sites américains, où les internautes comparent leur taux d'épargne. Tout dépend bien-sûr de votre situation familiale, de votre localisation, de votre travail et de vos valeurs. Mais en règle générale, les taux varient entre 35% et 65%. Donc avec 4% de taux d'intérêt, cela serait entre 10.98 et 26.77 années pour être indépendant financièrement. Ce qui est déjà beaucoup mieux que les 40 années du schéma classique.
 
 
