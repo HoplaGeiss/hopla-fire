@@ -1,23 +1,18 @@
 import './index.scss';
 
 import { graphql, Link } from 'gatsby';
-import Image from 'gatsby-image';
 import React from 'react';
 
-import Intro from '../components/intro';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
-  const landingImage = data.landing.childImageSharp.fixed
 
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <Image fixed={landingImage} className="landing-image"/>
-      <Intro/>
 
       <ol className="post-list">
         {posts.map(post => {
@@ -64,7 +59,7 @@ export const pageQuery = graphql`
         title
       }
     },
-    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(blog)/"  }}, sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
         excerpt
         fields {
@@ -77,12 +72,5 @@ export const pageQuery = graphql`
         }
       }
     },
-    landing: file(absolutePath: { regex: "/alarm-clock-growing-stacks-coins.jpg/" }) {
-      childImageSharp {
-        fixed(width: 50, height: 50, quality: 95) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
   }
 `

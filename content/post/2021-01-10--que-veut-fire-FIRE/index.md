@@ -1,3 +1,8 @@
+---
+title: Combien vous faut-il économiser avant de pouvoir prendre votre retraite ?
+description: "Un bon moyen de calculer votre 'chiffre magique', c'est-à-dire le moment où vous pourrez vous permettre de quitter votre boulot et vous consacrer à ce qui vous intéresse dans la vie, c'est d'utiliser la règle des 4%."
+---
+
 Commençons par jouer à un petit jeu et voyons si vous vous reconnaissez dans les situations suivantes :
 
 - Bac en poche, regardant des sites web au hasard et cherchant une carrière pas trop mal payée. En pensant "de toute façon moi je n'accepterai pas de premier emploi en-dessous de 3000 euros / mois net". Autant dire que quelques années plus tard, lors du premier entretien d'embauche, la barre était beaucoup plus basse !
