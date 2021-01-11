@@ -1,6 +1,7 @@
 ---
 title: Combien de temps vous faudra-il pour atteindre l'indépendance financière
 description: "Combien de temps vous faudra-il pour atteindre l'indépendance financière"
+cover: ./photo.jpg
 ---
 
 Comme expliqué dans mon post précédent sur la [règle des 4%](/economies-avant-independance-financiere), le plus important pour atteindre l'indépendance financière est votre dépense annuelle, puisque votre objectif est d'atteindre 25 fois celle-ci.

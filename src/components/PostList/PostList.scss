@@ -1,0 +1,42 @@
+$img-width: 25%;
+
+.post-list {
+  padding: 0 20px;
+  margin-top: 100px;
+
+  .list {
+    max-width: 1000px;
+    margin: 0 auto;
+    list-style: none;
+  }
+
+  .item {
+    margin-bottom: $spacing-8;
+    margin-top: $spacing-8;
+    display: flex;
+
+    .item-img {
+      width: $img-width;
+      margin-right: 10px;
+    }
+
+    article {
+      width: calc(100% - #{$img-width});
+
+      header {
+        margin-bottom: $spacing-4;
+
+        h2 {
+          font-size: $fontSize-4;
+          color: $color-primary;
+          margin-bottom: $spacing-2;
+          margin-top: $spacing-0;
+        }
+      }
+
+      .description {
+        margin-bottom: $spacing-0;
+      }
+    }
+  }
+}

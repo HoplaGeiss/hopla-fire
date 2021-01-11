@@ -1,52 +1,24 @@
 import './index.scss';
 
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import React from 'react';
 
-import Layout from '../components/layout';
+import Landing from '../components/Landing/Landing';
+import PostList from '../components/PostList/PostList';
 import SEO from '../components/seo';
 
-const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
+const BlogIndex = ({ data }) => {
+  const title = data.site.siteMetadata.title
+  const description = data.site.siteMetadata.description
+  const posts = data.allMarkdownRemark.nodes;
+  const cover = data.cover;
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <React.Fragment>
       <SEO title="All posts" />
-
-      <ol className="post-list">
-        {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
-
-          return (
-            <li key={post.fields.slug}>
-              <article
-                className="post-list-item"
-                itemScope
-                itemType="http://schema.org/Article"
-              >
-                <header>
-                  <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                    </Link>
-                  </h2>
-                  <small>{post.fields.date}</small>
-                </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </section>
-              </article>
-            </li>
-          )
-        })}
-      </ol>
-    </Layout>
+      <Landing cover={cover} title={title} description={description}/>
+      <PostList posts={posts} />
+    </React.Fragment>
   )
 }
 
@@ -56,10 +28,18 @@ export const pageQuery = graphql`
   query {
     site {
       siteMetadata {
-        title
+        title,
+        description
       }
     },
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    cover: file(relativePath: { eq: "alarm-clock-growing-stacks-coins.jpg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    allMarkdownRemark(sort: { fields: [fields___date], order: DESC }) {
       nodes {
         excerpt
         fields {
@@ -69,6 +49,13 @@ export const pageQuery = graphql`
         frontmatter {
           title
           description
+          cover {
+            childImageSharp {
+              fluid(maxWidth: 200) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     },

@@ -1,0 +1,24 @@
+.landing {
+  .img {
+    height: 100%;
+    height: 100vh;
+    position: absolute;
+  }
+
+  .title {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .description {
+    position: absolute;
+    top: 100px;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+
+    font-size: 1.5em;
+  }
+}

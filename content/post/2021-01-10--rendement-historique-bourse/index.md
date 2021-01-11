@@ -1,6 +1,7 @@
 ---
 title: Rendement annuel de la bourse depuis les dernières 60 années
 description: "Rendement annuel de la bourse depuis un siècle"
+cover: ./photo.jpg
 ---
 
 Pour faire fructifier vos économies, vous avez plusieurs options dont investir en action / index, investissement locatif, investissement en crypto-monnaie, investissement en minerai, etc... L'un des plus importants facteurs de comparaison est bien évidemment le rendement annuel.

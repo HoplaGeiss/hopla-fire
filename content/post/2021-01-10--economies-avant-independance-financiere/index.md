@@ -1,6 +1,7 @@
 ---
 title: Combien vous faut-il économiser avant de pouvoir prendre votre retraite ?
 description: "Un bon moyen de calculer votre 'chiffre magique', c'est-à-dire le moment où vous pourrez vous permettre de quitter votre boulot et vous consacrer à ce qui vous intéresse dans la vie, c'est d'utiliser la règle des 4%."
+cover: ./photo.jpg
 ---
 
 Un bon moyen de calculer votre 'chiffre magique', c'est-à-dire le moment où vous pourrez vous permettre de quitter votre boulot, et vous consacrer à ce qui vous intéresse dans la vie, c'est d'utiliser la règle des 4%.

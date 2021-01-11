@@ -1,6 +1,7 @@
 ---
 title: Pourquoi je ne compte pas sur la caisse de retraite
 description: "Pourquoi je ne compte pas sur la caisse de retraite"
+cover: ./photo.jpg
 ---
 
 La France a une longue histoire avec la retraite. Tout démarre en 1673 avec la caisse des invalides de la marine, qui d'ailleurs ne fait pas la différence entre invalidité et vieil âge. Puis en 1790, le lendemain de la révolution, c'est au tour des fonctionnaires âgés de 60 ans et après 30 ans de service. Il faudra atteindre 1930 pour que certains salariés puissent bénéficier de la retraite. La caisse retraite est reformée après la seconde guerre mondiale, et devient accessible au plus grand nombre grâce à un changement clé, c'est désormais **les actifs qui financent les retraités** et en parallèle l’âge de départ à la retraite est dorénavant de 65 ans. Depuis ce moment-là, les gouvernements successifs ont été confrontés à des problèmes financiers et ont régulièrement fait d'autre réformes. Notamment en 1982, 1993, 2003, 2010, et 2014.

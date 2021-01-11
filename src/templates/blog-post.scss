@@ -1,24 +1,31 @@
-.blog-post header h1 {
-  margin: $spacing-0 $spacing-0 $spacing-4 $spacing-0;
-}
+$width-nav: 300px;
 
-.blog-post header p {
-  font-size: $fontSize-2;
-  font-family: $font-heading;
-}
+.blog-post {
+  position: relative;
+  height: 100vh;
 
-.blog-post-nav {
-  display: flex;
-  justify-content: space-between;
+  .blog-post-nav {
+    display: none;
 
-  .prev {
-    padding-right: 10px;
-    flex-grow: 1;
+    @media (min-width: $md) {
+      height: 100%;
+      display: block;
+      position: absolute;
+      width: $width-nav;
+    }
   }
 
-  .next {
-    padding-left: 10px;
-    flex-grow: 1;
-    text-align: end;
+  .blog-post-main {
+    padding: 0 20px;
+    overflow-y: scroll;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    @media (min-width: $md) {
+      left: $width-nav;
+    }
   }
 }
