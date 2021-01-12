@@ -14,7 +14,7 @@ const Post = ({ post }) => {
       <header>
         <h1 itemProp="headline">{post.frontmatter.title}</h1>
         <p className="date">{post.fields.date}</p>
-        <Img fluid={img}/>
+        <Img fluid={img} itemProp="image"/>
       </header>
       <section
         dangerouslySetInnerHTML={{ __html: post.html }}
