@@ -21,12 +21,11 @@ const PostSidebar = ({ posts, className, title }) => {
           return (
             <li key={post.fields.slug}>
               <article
-                itemScope
-                itemType="http://schema.org/Article"
+                itemscope itemtype="https://schema.org/BlogPosting"
               >
                 <Link to={post.fields.slug} itemProp="url">
-                  <div className="item-img-wrapper"><Img fixed={img} className="item-img"/></div>
-                  <span itemProp="headline" className="item-text">{title}</span>
+                  <div className="item-img-wrapper"><Img fixed={img} itemProp="image" className="item-img"/></div>
+                  <span itemProp="headline name" className="item-text">{title}</span>
                 </Link>
               </article>
             </li>

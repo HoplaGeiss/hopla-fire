@@ -15,18 +15,19 @@ const PostList = ({ posts }) => {
           return (
             <li key={post.fields.slug} >
               <article
-                itemScope
-                itemType="http://schema.org/Article"
+                itemprop="blogPost"
+                itemscope
+                itemtype="https://schema.org/BlogPosting"
               >
                 <Link to={post.fields.slug} itemProp="url" className="item">
                   <div className="item-img">
-                    <Img fixed={img} className="img" />
+                    <Img fixed={img} className="img" itemProp="image"/>
                   </div>
 
                   <div className="text-wrapper">
                     <header>
-                      <h2 className="title" itemProp="headline">{title}</h2>
-                      <small className="date">{post.fields.date}</small>
+                      <h2 className="title" itemProp="headline name">{title}</h2>
+                      <small className="date" itemprop="datePublished">{post.fields.date}</small>
                     </header>
 
                     <section>

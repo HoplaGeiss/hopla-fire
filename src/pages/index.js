@@ -16,8 +16,10 @@ const BlogIndex = ({ data }) => {
   return (
     <React.Fragment>
       <SEO title="Tous les articles" />
-      <Landing cover={cover} title={title} description={description}/>
-      <PostList posts={posts} />
+      <div itemscope itemtype="https://schema.org/Blog">
+        <Landing cover={cover} title={title} description={description}/>
+        <PostList posts={posts} />
+      </div>
     </React.Fragment>
   )
 }

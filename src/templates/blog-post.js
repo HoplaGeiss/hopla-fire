@@ -20,10 +20,12 @@ const BlogPostTemplate = ({ data, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <PostSidebar posts={allPost} title={siteTitle} className="blog-post-nav" />
-      <div className="blog-post-main">
-        <Post post={post} />
-        <PreviousNextPostNav previous={previous} next={next} />
+      <div>
+        <PostSidebar posts={allPost} title={siteTitle} className="blog-post-nav" />
+        <div itemscope itemtype="https://schema.org/Blog">
+          <Post post={post} />
+          <PreviousNextPostNav previous={previous} next={next} />
+          </div>
       </div>
     </div>
   )

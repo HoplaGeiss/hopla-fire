@@ -8,12 +8,13 @@ const Post = ({ post }) => {
   return (
     <article
       className="blog-post-article"
-      itemScope
-      itemType="http://schema.org/Article"
+      itemprop="blogPost"
+      itemscope
+      itemtype="https://schema.org/BlogPosting"
     >
       <header>
-        <h1 itemProp="headline">{post.frontmatter.title}</h1>
-        <p className="date">{post.fields.date}</p>
+        <h1 itemProp="headline name">{post.frontmatter.title}</h1>
+        <p className="date" itemprop="datePublished">{post.fields.date}</p>
         <Img fluid={img} itemProp="image"/>
       </header>
       <section
