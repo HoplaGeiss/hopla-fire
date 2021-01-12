@@ -1,6 +1,6 @@
 ---
 title: La magie des intérêts cumulés
-description: "La magie des intérêts cumulés"
+description: "Lorsque vous investissez votre argent, ce n'est qu'une question de temps avant que votre argent ne travaille plus dur que vous!"
 cover: ./interets-cumules.png
 ---
 

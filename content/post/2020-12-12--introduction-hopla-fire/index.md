@@ -1,6 +1,6 @@
 ---
-title: Que ve dire FIRE
-description: "FIRE - Financial Independance & Retire Early. Ou indépendance financière et retraite anticipée"
+title: Introduction - qu'est ce qu'HoplaFire
+description: "HoplaFire - Indépendance financière & retraite anticipée"
 cover: ./feu.png
 ---
 

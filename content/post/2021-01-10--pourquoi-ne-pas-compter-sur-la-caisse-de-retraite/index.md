@@ -1,6 +1,6 @@
 ---
-title: Pourquoi je ne compte pas sur la caisse de retraite
-description: "Pourquoi je ne compte pas sur la caisse de retraite"
+title: Alternative à la caisse de retraite
+description: "Les avantages de ne compter que sur soi même pour sa retraite"
 cover: ./retraite-cochon-tirelire.jpg
 ---
 

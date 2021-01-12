@@ -1,6 +1,6 @@
 ---
-title: Combien vous faut-il économiser avant de pouvoir prendre votre retraite ?
-description: "Un bon moyen de calculer votre 'chiffre magique', c'est-à-dire le moment où vous pourrez vous permettre de quitter votre boulot et vous consacrer à ce qui vous intéresse dans la vie, c'est d'utiliser la règle des 4%."
+title: Combien économiser avant la retraite
+description: "Pour trouver votre 'chiffre magique' il suffit d'appliquer la règles des 4%."
 cover: ./retraite-anticipe.jpg
 ---
 

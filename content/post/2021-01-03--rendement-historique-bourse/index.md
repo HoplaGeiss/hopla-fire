@@ -1,6 +1,6 @@
 ---
-title: Rendement annuel de la bourse depuis les dernières 60 années
-description: "Rendement annuel de la bourse depuis un siècle"
+title: Rendement de la bourse
+description: "Combien pouvez-vous espérer en investissant votre argent en bourse sur le long terme?"
 cover: ./bourse.jpeg
 ---
 
