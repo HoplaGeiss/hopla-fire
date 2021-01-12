@@ -1,7 +1,7 @@
 ---
 title: Que ve dire FIRE
 description: "FIRE - Financial Independance & Retire Early. Ou indépendance financière et retraite anticipée"
-cover: ./photo.jpg
+cover: ./feu.png
 ---
 
 Commençons par jouer à un petit jeu et voyons si vous vous reconnaissez dans les situations suivantes :

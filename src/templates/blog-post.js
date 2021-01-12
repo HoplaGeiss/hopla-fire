@@ -65,7 +65,7 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 160)
       html
       fields {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD MMMM YYYY", locale: "fr")
       }
       frontmatter {
         title

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `HoplaFire`,
-    description: `Indépendance financière et retraite anticipé. Apprendre a augmenter ses revenus passif.`,
+    description: `Indépendance financière et retraite anticipée. Apprendre à augmenter ses revenus passif.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`
   },
   plugins: [

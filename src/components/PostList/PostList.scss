@@ -1,8 +1,7 @@
-$img-width: 25%;
-
 .post-list {
   padding: 0 20px;
-  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 40px;
 
   .list {
     max-width: 1000px;
@@ -10,32 +9,72 @@ $img-width: 25%;
     list-style: none;
   }
 
-  .item {
-    margin-bottom: $spacing-8;
-    margin-top: $spacing-8;
-    display: flex;
-
-    .item-img {
-      width: $img-width;
-      margin-right: 10px;
+  li {
+    &:last-child .item {
+      margin-bottom: 0;
     }
 
-    article {
-      width: calc(100% - #{$img-width});
+    .item {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      margin-bottom: 40px;
 
-      header {
-        margin-bottom: $spacing-4;
+      .item-img {
+        margin-right: 20px;
 
-        h2 {
-          font-size: $fontSize-4;
-          color: $color-primary;
-          margin-bottom: $spacing-2;
-          margin-top: $spacing-0;
+        @media (min-width: $md) {
+          margin-right: 30px;
+        }
+
+        img {
+          border-radius: 50%;
+          border: 1px solid $color-border;
         }
       }
 
-      .description {
-        margin-bottom: $spacing-0;
+      .text-wrapper {
+        flex-grow: 1;
+
+        header {
+          margin-bottom: 0;
+
+          .title {
+            font-size: 1.3em;
+            color: $color-primary;
+            margin-bottom: 5px;
+            margin-top: 0;
+
+            @media (min-width: $md) {
+              margin-bottom: 0;
+              font-size: 2em;
+              margin-bottom: 2px;
+            }
+          }
+
+          .date {
+            display: none;
+
+            @media (min-width: $md) {
+              display: block;
+              font-size: 0.9em;
+              color: $color-text;
+            }
+          }
+        }
+
+        .description {
+          margin: 0;
+          font-size: 1em;
+          color: $color-text;
+          line-height: 1.4;
+
+          @media (min-width: $md) {
+            margin-top: 10px;
+            font-size: 1.1em;
+            line-height: 1.5;
+          }
+        }
       }
     }
   }

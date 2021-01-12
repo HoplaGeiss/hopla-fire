@@ -10,32 +10,36 @@ const PostList = ({ posts }) => {
       <ol className="list">
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
-          const img = post.frontmatter.cover.childImageSharp.fluid
+          const img = post.frontmatter.cover.childImageSharp.fixed
 
           return (
-            <li key={post.fields.slug} className="item">
-              <div className="item-img"><Img fluid={img}/></div>
+            <li key={post.fields.slug} >
               <article
                 itemScope
                 itemType="http://schema.org/Article"
               >
-                <header>
-                  <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                    </Link>
-                  </h2>
-                  <small>{post.fields.date}</small>
-                </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                    className="description"
-                  />
-                </section>
+                <Link to={post.fields.slug} itemProp="url" className="item">
+                  <div className="item-img">
+                    <Img fixed={img} className="img" />
+                  </div>
+
+                  <div className="text-wrapper">
+                    <header>
+                      <h2 className="title" itemProp="headline">{title}</h2>
+                      <small className="date">{post.fields.date}</small>
+                    </header>
+
+                    <section>
+                      <p
+                        dangerouslySetInnerHTML={{
+                          __html: post.frontmatter.description || post.excerpt,
+                        }}
+                        itemProp="description"
+                        className="description"
+                      />
+                    </section>
+                  </div>
+                </Link>
               </article>
             </li>
           )

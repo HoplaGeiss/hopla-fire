@@ -13,7 +13,7 @@ const Post = ({ post }) => {
     >
       <header>
         <h1 itemProp="headline">{post.frontmatter.title}</h1>
-        <p>{post.fields.date}</p>
+        <p className="date">{post.fields.date}</p>
         <Img fluid={img}/>
       </header>
       <section

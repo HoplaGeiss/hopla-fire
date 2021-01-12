@@ -6,12 +6,51 @@
     margin-bottom: 40px;
   }
 
-  header p {
-    font-size: $fontSize-2;
+  .date {
+    font-size: 1.2em;
     font-family: $font-heading;
   }
 
-  header h1 {
-    margin: $spacing-0 $spacing-0 $spacing-4 $spacing-0;
+  h1 {
+    margin: 15px 0 10px 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 1.5;
+
+    th {
+      color: $color-primary;
+      border-bottom: 1px solid $color-border;
+    }
+  }
+
+  ul li {
+    line-height: 1.7;
+  }
+
+  p + ul {
+    margin-top: -15px;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  hr {
+    background: #d1dce5;
+    height: 1px;
+    border: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: $color-primary;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }

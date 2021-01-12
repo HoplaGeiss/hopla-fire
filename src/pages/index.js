@@ -15,7 +15,7 @@ const BlogIndex = ({ data }) => {
 
   return (
     <React.Fragment>
-      <SEO title="All posts" />
+      <SEO title="Tous les articles" />
       <Landing cover={cover} title={title} description={description}/>
       <PostList posts={posts} />
     </React.Fragment>
@@ -32,7 +32,7 @@ export const pageQuery = graphql`
         description
       }
     },
-    cover: file(relativePath: { eq: "alarm-clock-growing-stacks-coins.jpg" }) {
+    cover: file(relativePath: { eq: "fire-economies.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
@@ -44,15 +44,15 @@ export const pageQuery = graphql`
         excerpt
         fields {
           slug,
-          date(formatString: "MMMM DD, YYYY")
+          date(formatString: "DD MMMM YYYY", locale: "fr")
         }
         frontmatter {
           title
           description
           cover {
             childImageSharp {
-              fluid(maxWidth: 200) {
-                ...GatsbyImageSharpFluid
+              fixed(height: 100, width: 100) {
+                ...GatsbyImageSharpFixed
               }
             }
           }
