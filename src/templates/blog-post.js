@@ -22,10 +22,10 @@ const BlogPostTemplate = ({ data, location }) => {
       />
       <div>
         <PostSidebar posts={allPost} title={siteTitle} className="blog-post-nav" />
-        <div itemscope itemtype="https://schema.org/Blog">
+        <div itemScope itemType="https://schema.org/Blog" className="blog-post-main">
           <Post post={post} />
           <PreviousNextPostNav previous={previous} next={next} />
-          </div>
+        </div>
       </div>
     </div>
   )

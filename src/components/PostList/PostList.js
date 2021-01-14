@@ -15,9 +15,9 @@ const PostList = ({ posts }) => {
           return (
             <li key={post.fields.slug} >
               <article
-                itemprop="blogPost"
-                itemscope
-                itemtype="https://schema.org/BlogPosting"
+                itemProp="blogPost"
+                itemScope
+                itemType="https://schema.org/BlogPosting"
               >
                 <Link to={post.fields.slug} itemProp="url" className="item">
                   <div className="item-img">
@@ -27,7 +27,7 @@ const PostList = ({ posts }) => {
                   <div className="text-wrapper">
                     <header>
                       <h2 className="title" itemProp="headline name">{title}</h2>
-                      <small className="date" itemprop="datePublished">{post.fields.date}</small>
+                      <small className="date" itemProp="datePublished">{post.fields.date}</small>
                     </header>
 
                     <section>
