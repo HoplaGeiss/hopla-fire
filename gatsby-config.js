@@ -47,6 +47,12 @@ module.exports = {
         trackingId: `G-310ENPZTJL`,
       },
     },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-5RBL959",
+      },
+    },
     // `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
