@@ -18,7 +18,7 @@ const BlogPostTemplate = ({ data, location }) => {
     <div className="blog-post">
       <SEO
         title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
+        description={post.frontmatter.description}
       />
       <div>
         <PostSidebar posts={allPost} title={siteTitle} className="blog-post-nav" />
