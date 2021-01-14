@@ -30,7 +30,7 @@ const SEO = ({ description, lang, meta, title, image }) => {
     title: title ? `${title} | ${defaultTitle}` : defaultTitle,
     description: description || defaultDescription,
     url: siteUrl + pathname,
-    image: siteUrl + image.src
+    image: image ? siteUrl + image.src : ''
   }
 
   return (
