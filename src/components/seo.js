@@ -1,55 +1,69 @@
-/**
- * SEO component that queries for data with
- *  Gatsby's useStaticQuery React hook
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
+import { useLocation } from '@reach/router';
 import { graphql, useStaticQuery } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-
-const SEO = ({ description, lang, meta, title }) => {
+const SEO = ({ description, lang, meta, title, image }) => {
+  const { pathname } = useLocation()
   const { site } = useStaticQuery(
     graphql`
       query {
         site {
           siteMetadata {
-            title
-            description
+            defaultTitle: title
+            defaultDescription: description
+            siteUrl: url
           }
         }
       }
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata.title
+  const {
+    defaultTitle,
+    defaultDescription,
+    siteUrl,
+  } = site.siteMetadata
+
+  const seo = {
+    title: title ? `${title} | ${defaultTitle}` : defaultTitle,
+    description: description || defaultDescription,
+    url: siteUrl + pathname,
+    image: siteUrl + image.src
+  }
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title ? `${title} | ${defaultTitle}` : defaultTitle}
+      title={seo.title}
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: seo.description,
         },
         {
           property: `og:title`,
-          content: title ? `${title} | ${defaultTitle}` : defaultTitle,
+          content: seo.title
+        },
+        {
+          property: `og:url`,
+          content: seo.url,
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: seo.description,
         },
         {
           property: `og:type`,
-          content: `website`,
+          content: title ? `article` : `website`,
         },
+        {
+          property: `og:image`,
+          content: seo.image
+        }
       ].concat(meta)}
     />
   )

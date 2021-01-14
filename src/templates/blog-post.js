@@ -8,8 +8,9 @@ import PostSidebar from '../components/PostSidebar/PostSidebar';
 import PreviousNextPostNav from '../components/PreviousNextPostNav/PreviousNextPostNav';
 import SEO from '../components/seo';
 
-const BlogPostTemplate = ({ data, location }) => {
+const BlogPostTemplate = ({ data }) => {
   const post = data.markdownRemark
+  const postImage = post.frontmatter.cover.childImageSharp.fixed;
   const allPost = data.allMarkdownRemark.nodes
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data;
@@ -19,6 +20,7 @@ const BlogPostTemplate = ({ data, location }) => {
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description}
+        image={postImage}
       />
       <div>
         <PostSidebar posts={allPost} title={siteTitle} className="blog-post-nav" />
@@ -76,6 +78,11 @@ export const pageQuery = graphql`
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid
+            }
+          }
+          childImageSharp {
+            fixed(height: 300, width: 300) {
+              ...GatsbyImageSharpFixed
             }
           }
         }
