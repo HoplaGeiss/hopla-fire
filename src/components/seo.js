@@ -61,6 +61,10 @@ const SEO = ({ description, lang, meta, title, image }) => {
           content: title ? `article` : `website`,
         },
         {
+          property: `image`,
+          content: seo.image
+        },
+        {
           property: `og:image`,
           content: seo.image
         }
