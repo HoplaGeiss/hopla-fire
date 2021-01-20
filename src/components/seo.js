@@ -76,7 +76,6 @@ const SEO = ({ description, lang, meta, title, image }) => {
 SEO.defaultProps = {
   lang: `fr`,
   meta: [],
-  description: ``,
 }
 
 SEO.propTypes = {

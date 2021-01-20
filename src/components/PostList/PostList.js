@@ -21,7 +21,7 @@ const PostList = ({ posts }) => {
               >
                 <Link to={post.fields.slug} itemProp="url" className="item">
                   <div className="item-img">
-                    <Img fixed={img} className="img" itemProp="image"/>
+                    <Img fixed={img} className="img" itemProp="image" alt={title}/>
                   </div>
 
                   <div className="text-wrapper">
