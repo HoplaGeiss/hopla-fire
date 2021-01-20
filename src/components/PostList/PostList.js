@@ -8,7 +8,7 @@ const PostList = ({ posts }) => {
   return (
     <div className="post-list">
       <ol className="list" itemScope itemType="https://schema.org/ItemList">
-        {posts.map(post => {
+        {posts.map((post, index) => {
           const title = post.frontmatter.title || post.fields.slug
           const img = post.frontmatter.cover.childImageSharp.fixed
 
@@ -20,6 +20,8 @@ const PostList = ({ posts }) => {
                 itemType="https://schema.org/ListItem"
               >
                 <Link to={post.fields.slug} itemProp="url" className="item">
+                  <meta itemprop="position" content={index + 1} />
+
                   <div className="item-img">
                     <Img fixed={img} className="img" itemProp="image" alt={title}/>
                   </div>
