@@ -7,7 +7,7 @@ import React from 'react';
 const PostList = ({ posts }) => {
   return (
     <div className="post-list">
-      <ol className="list">
+      <ol className="list" itemScope itemType="https://schema.org/ItemList">
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
           const img = post.frontmatter.cover.childImageSharp.fixed
@@ -15,9 +15,9 @@ const PostList = ({ posts }) => {
           return (
             <li key={post.fields.slug} >
               <article
-                itemProp="blogPost"
+                itemProp="itemListElement"
                 itemScope
-                itemType="https://schema.org/BlogPosting"
+                itemType="https://schema.org/ListItem"
               >
                 <Link to={post.fields.slug} itemProp="url" className="item">
                   <div className="item-img">
@@ -26,8 +26,8 @@ const PostList = ({ posts }) => {
 
                   <div className="text-wrapper">
                     <header>
-                      <h2 className="title" itemProp="headline name">{title}</h2>
-                      <small className="date" itemProp="datePublished">{post.fields.date}</small>
+                      <h2 className="title" itemProp="name">{title}</h2>
+                      <small className="date">{post.fields.date}</small>
                     </header>
 
                     <section>
