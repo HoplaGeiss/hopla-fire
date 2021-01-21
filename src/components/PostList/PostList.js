@@ -20,7 +20,7 @@ const PostList = ({ posts }) => {
                 itemType="https://schema.org/ListItem"
               >
                 <Link to={post.fields.slug} itemProp="url" className="item">
-                  <meta itemprop="position" content={index + 1} />
+                  <meta itemProp="position" content={index + 1} />
 
                   <div className="item-img">
                     <Img fixed={img} className="img" itemProp="image" alt={title}/>

@@ -3,29 +3,37 @@ $width-nav: 300px;
 .blog-post {
   position: relative;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 
-  .blog-post-nav {
-    display: none;
+  .center {
+    flex-grow: 1;
+    width: 100%;
+    position: relative;
 
-    @media (min-width: $md) {
-      height: 100%;
-      display: block;
-      position: absolute;
-      width: $width-nav;
+    .sidebar {
+      display: none;
+
+      @media (min-width: $md) {
+        height: 100%;
+        display: block;
+        position: absolute;
+        width: $width-nav;
+      }
     }
-  }
 
-  .blog-post-main {
-    padding: 0 20px;
-    overflow-y: scroll;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
+    .main {
+      padding: 0 20px;
+      overflow-y: scroll;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
 
-    @media (min-width: $md) {
-      left: $width-nav;
+      @media (min-width: $md) {
+        left: $width-nav;
+      }
     }
   }
 }

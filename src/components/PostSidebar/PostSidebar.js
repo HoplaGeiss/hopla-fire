@@ -26,7 +26,7 @@ const PostSidebar = ({ posts, className, title }) => {
                 itemType="https://schema.org/ListItem"
               >
                 <Link to={post.fields.slug} itemProp="url">
-                  <meta itemprop="position" content={index + 1} />
+                  <meta itemProp="position" content={index + 1} />
                   <div className="item-img-wrapper"><Img fixed={img} itemProp="image" className="item-img" alt={title}/></div>
                   <span itemProp="name" className="item-text">{title}</span>
                 </Link>

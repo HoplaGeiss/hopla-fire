@@ -1,0 +1,27 @@
+$navbar-height: 40px;
+
+.navbar {
+  height: $navbar-height;
+  width: 100%;
+  line-height: $navbar-height;
+  padding: 0 20px;
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+  }
+
+  &::after {
+    left: 15px;
+    top: $navbar-height;
+    right: 15px;
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid $color-border;
+  }
+
+  @media (min-width: $md) {
+    display: none;
+  }
+}

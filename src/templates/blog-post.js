@@ -3,6 +3,7 @@ import './blog-post.scss';
 import { graphql } from 'gatsby';
 import React from 'react';
 
+import Navbar from '../components/Navbar/Navbar';
 import Post from '../components/Post/Post';
 import PostSidebar from '../components/PostSidebar/PostSidebar';
 import PreviousNextPostNav from '../components/PreviousNextPostNav/PreviousNextPostNav';
@@ -12,7 +13,7 @@ const BlogPostTemplate = ({ data }) => {
   const post = data.markdownRemark
   const postImage = post.frontmatter.cover.childImageSharp.fixed;
   const allPost = data.allMarkdownRemark.nodes
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+  const title = data.site.siteMetadata.title
   const { previous, next } = data;
 
   return (
@@ -22,9 +23,10 @@ const BlogPostTemplate = ({ data }) => {
         description={post.frontmatter.description}
         image={postImage}
       />
-      <div>
-        <PostSidebar posts={allPost} title={siteTitle} className="blog-post-nav" />
-        <div itemScope itemType="https://schema.org/Blog" className="blog-post-main">
+      <Navbar title={title}/>
+      <div className="center">
+        <PostSidebar posts={allPost} title={title} className="sidebar"/>
+        <div itemScope itemType="https://schema.org/Blog" className="main">
           <Post post={post} />
           <PreviousNextPostNav previous={previous} next={next} />
         </div>
