@@ -1,48 +1,40 @@
-import './blog-post.scss';
+import "./blog-post.scss";
 
-import { graphql } from 'gatsby';
-import React from 'react';
+import { graphql } from "gatsby";
+import React from "react";
 
-import Navbar from '../components/Navbar/Navbar';
-import Post from '../components/Post/Post';
-import PostSidebar from '../components/PostSidebar/PostSidebar';
-import PreviousNextPostNav from '../components/PreviousNextPostNav/PreviousNextPostNav';
-import SEO from '../components/seo';
+import Navbar from "../components/Navbar/Navbar";
+import Post from "../components/Post/Post";
+import PostSidebar from "../components/PostSidebar/PostSidebar";
+import PreviousNextPostNav from "../components/PreviousNextPostNav/PreviousNextPostNav";
+import SEO from "../components/seo";
 
 const BlogPostTemplate = ({ data }) => {
-  const post = data.markdownRemark
+  const post = data.markdownRemark;
   const postImage = post.frontmatter.cover.childImageSharp.fixed;
-  const allPost = data.allMarkdownRemark.nodes
-  const title = data.site.siteMetadata.title
+  const allPost = data.allMarkdownRemark.nodes;
+  const title = data.site.siteMetadata.title;
   const { previous, next } = data;
 
   return (
     <div className="blog-post">
-      <SEO
-        title={post.frontmatter.title}
-        description={post.frontmatter.description}
-        image={postImage}
-      />
-      <Navbar title={title}/>
+      <SEO title={post.frontmatter.title} description={post.frontmatter.description} image={postImage} />
+      <Navbar title={title} />
       <div className="center">
-        <PostSidebar currentPostId={post.id} posts={allPost} title={title} className="sidebar"/>
+        <PostSidebar currentPostId={post.id} posts={allPost} title={title} className="sidebar" />
         <div itemScope itemType="https://schema.org/Blog" className="main">
           <Post post={post} />
           <PreviousNextPostNav previous={previous} next={next} />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default BlogPostTemplate
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
-  query BlogPostBySlug(
-    $id: String!
-    $previousPostId: String
-    $nextPostId: String
-  ) {
+  query BlogPostBySlug($id: String!, $previousPostId: String, $nextPostId: String) {
     site {
       siteMetadata {
         title
@@ -50,9 +42,9 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(sort: { fields: [fields___date], order: DESC }) {
       nodes {
-        id,
+        id
         fields {
-          slug,
+          slug
         }
         frontmatter {
           title
@@ -107,4 +99,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

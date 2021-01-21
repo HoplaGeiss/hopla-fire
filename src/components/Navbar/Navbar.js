@@ -1,13 +1,14 @@
-import './Navbar.scss';
+import "./Navbar.scss";
 
-import { Link } from 'gatsby';
-import React from 'react';
+import { Link } from "gatsby";
+import React from "react";
 
-const Navbar = ({title}) => {
+const Navbar = ({ title }) => {
   return (
-    <div className="navbar"><Link to="/">{title}</Link></div>
-  )
-}
+    <div className="navbar">
+      <Link to="/">{title}</Link>
+    </div>
+  );
+};
 
-export default Navbar
-
+export default Navbar;

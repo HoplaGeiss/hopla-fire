@@ -1,40 +1,40 @@
-import './index.scss';
+import "./index.scss";
 
-import { graphql } from 'gatsby';
-import React from 'react';
+import { graphql } from "gatsby";
+import React from "react";
 
-import Landing from '../components/Landing/Landing';
-import PostList from '../components/PostList/PostList';
-import SEO from '../components/seo';
+import Landing from "../components/Landing/Landing";
+import PostList from "../components/PostList/PostList";
+import SEO from "../components/seo";
 
 const BlogIndex = ({ data }) => {
-  const title = data.site.siteMetadata.title
-  const description = data.site.siteMetadata.description
+  const title = data.site.siteMetadata.title;
+  const description = data.site.siteMetadata.description;
   const posts = data.allMarkdownRemark.nodes;
   const cover = data.cover.childImageSharp.fluid;
   const seoImage = data.cover.childImageSharp.fixed;
 
   return (
     <React.Fragment>
-      <SEO image={seoImage}/>
+      <SEO image={seoImage} />
       <div itemScope itemType="https://schema.org/Blog">
-        <Landing cover={cover} title={title} description={description}/>
+        <Landing cover={cover} title={title} description={description} />
         <PostList posts={posts} />
       </div>
     </React.Fragment>
-  )
-}
+  );
+};
 
-export default BlogIndex
+export default BlogIndex;
 
 export const pageQuery = graphql`
   query {
     site {
       siteMetadata {
-        title,
+        title
         description
       }
-    },
+    }
     cover: file(relativePath: { eq: "fire-economies.jpg" }) {
       childImageSharp {
         fluid {
@@ -51,7 +51,7 @@ export const pageQuery = graphql`
       nodes {
         excerpt
         fields {
-          slug,
+          slug
           date(formatString: "DD MMMM YYYY", locale: "fr")
         }
         frontmatter {
@@ -66,6 +66,6 @@ export const pageQuery = graphql`
           }
         }
       }
-    },
+    }
   }
-`
+`;

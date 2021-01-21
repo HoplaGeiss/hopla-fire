@@ -13,11 +13,13 @@ Dans mon article sur [Combien de temps vous faudra-il pour atteindre l'indépend
 Depuis 1975, la retraite de base à taux plein dans le régime général se base sur 50% du salaire annuel des meilleurs 25 années de cotisation. En plus de fournir deux fois moins de rente mensuelle que l'indépendance financière, la retraite ne conserve pas le capital investi. La caisse de retraite ne donnera bien évidemment rien de l'éventuel surplus aux enfants.
 
 Personnellement, je préfère mille fois épargner de mon côté 21% de mon salaire et savoir qu'après 40 ans j'aurai créé mon propre fond de retraite, et que je pourrai en vivre indéfiniment et léguer la totalité de ce capital à mes enfants. La retraite proposée par la caisse de retraite est :
+
 - Trop faible pour maintenir le train de vie de la période active
 - Trop susceptible au changement des différentes réformes
 - Trop incertain du point de vue de la rentabilité du capital investi par rapport à la rente perçue.
 
 L'autre grand problème avec la retraite, dont tout le monde parle, est de comment en assurer la pérenité vu que la pyramide des âges dans nos sociétés commence à s'inverser. Quand on regarde les variables il y a 4 options :
+
 - La retraite sera encore moins que 50% du salaire
 - Travailler encore plus longtemps
 - Cotiser plus
@@ -25,4 +27,4 @@ L'autre grand problème avec la retraite, dont tout le monde parle, est de comme
 
 Du point de vue du mouvement FIRE (indépendance financière et retraite anticipée), il est impensable de se baser sur la retraite de l'État pour une autre et dernière raison qui est qu'on ne peut la toucher qu'à 65 ans. Donc naturellement, si vous prévoyez de prendre votre retraite beaucoup plus rapidement, disons à 50 ans, il vous faudra construire suffisamment de capital pour en vivre jusqu'à la retraite. Et si vous raisonnez de cette façon, la retraite devient de moins en moins intéressante puisque la rente décroit rapidement, si vous ne cotisez pas toutes les années prévues pour le taux plein.
 
-En conclusion mon approche est que je ne compte que sur moi-même pour construire mon propre capital retraite. Ce que je toucherai de la caisse retraite, si et quand je le toucherai  n'est que du bonus et ne rentre pas en compte dans mon calcul de retraite.
+En conclusion mon approche est que je ne compte que sur moi-même pour construire mon propre capital retraite. Ce que je toucherai de la caisse retraite, si et quand je le toucherai n'est que du bonus et ne rentre pas en compte dans mon calcul de retraite.

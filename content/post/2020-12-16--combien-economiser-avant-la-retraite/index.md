@@ -12,19 +12,19 @@ Essayons maintenant de voir sur quoi ce base cette règle.
 
 Le but de l'indépendance financière est de pouvoir vivre grâce au revenu passif :
 
-**dépense annuelle = rendement investissement * économies**
+*dépense annuelle = rendement investissement * économies*
 
 Exprimons maintenant les économies comme un facteur 'N' des dépenses annuelles :
 
-**économies = n * dépenses annuelles**
+*économies = n * dépenses annuelles*
 
 Donc notre formule initiale devient :
 
-**dépense annuelle = rendement investissement * N * dépenses annuelles**
+*dépense annuelle = rendement investissement _ N _ dépenses annuelles*
 
-Donc, **N = 1 / rendement investissement**
+Donc, *N = 1 / rendement investissement*
 
-Prenons maintenant un exemple, si l'on utilise 4% pour le rendement des investissements, on obtient **N = 1/4% = 25**. Tout devient clair ! Cette formule donne le nombre de fois qu'il faut économiser votre dépense annuelle en fonction du rendement de vos investissements.
+Prenons maintenant un exemple, si l'on utilise 4% pour le rendement des investissements, on obtient *N = 1/4% = 25*. Tout devient clair ! Cette formule donne le nombre de fois qu'il faut économiser votre dépense annuelle en fonction du rendement de vos investissements.
 
 Traçons maintenant la courbe de cette formule.
 
@@ -38,13 +38,13 @@ Ce qui veut dire que si vous parvenez à un rendement de 7% sur vos investisseme
 
 Pour finir, faisons un tableau afin de savoir combien vous aurez besoin d'économiser en fonction de vos dépenses mensuelles et du rendement de vos investissements.
 
-   Dépenses annuelles      | rendement 4%         | rendement 7%
- :- | :- | :-
- 1,000 | 300,000   | 171,000
- 1,500 | 450,000  | 257,000
- 2,000 | 600,000 | 343,000
- 2,500 | 750,000 | 429,000
- 3,000 | 900,000 | 514,000
- 3,500 | 1,050,000 | 600,000
+| Dépenses mensuelles | rendement 4% | rendement 7% |
+| :----------------- | :----------- | :----------- |
+| 1,000              | 300,000      | 171,000      |
+| 1,500              | 450,000      | 257,000      |
+| 2,000              | 600,000      | 343,000      |
+| 2,500              | 750,000      | 429,000      |
+| 3,000              | 900,000      | 514,000      |
+| 3,500              | 1,050,000    | 600,000      |
 
 Nous n'avons pas abordé l'inflation, ce sera un sujet pour un autre article. Mais sachez que lorsque vous calculez le rendement de vos investissements, vous devez y soustraire l'inflation. La plupart des gouvernements se base sur 2% d'inflation annuelle. En réalité actuellement il y a très peu d'inflation en Europe, mais pour être prudent, votre rendement brut doit donc être de 6% et non pas 4%.

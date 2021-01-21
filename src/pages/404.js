@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import SEO from '../components/seo';
+import SEO from "../components/seo";
 
 const NotFoundPage = () => {
   return (
@@ -9,9 +9,7 @@ const NotFoundPage = () => {
       <h1>404: Not Found</h1>
       <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
     </React.Fragment>
-  )
-}
+  );
+};
 
-export default NotFoundPage
-
-
+export default NotFoundPage;

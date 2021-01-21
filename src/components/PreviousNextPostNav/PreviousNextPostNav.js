@@ -1,9 +1,9 @@
-import './PreviousNextPostNav.scss';
+import "./PreviousNextPostNav.scss";
 
-import { Link } from 'gatsby';
-import React from 'react';
+import { Link } from "gatsby";
+import React from "react";
 
-const PreviousNextPostNav = ({previous, next}) => {
+const PreviousNextPostNav = ({ previous, next }) => {
   return (
     <nav className="previous-next-post-nav">
       {previous && (
@@ -17,7 +17,7 @@ const PreviousNextPostNav = ({previous, next}) => {
         </Link>
       )}
     </nav>
-  )
-}
+  );
+};
 
-export default PreviousNextPostNav
+export default PreviousNextPostNav;
