@@ -31,7 +31,7 @@
       article {
         margin: 10px 0;
 
-        a {
+        .item {
           display: block;
           text-decoration: none;
           color: $color-text;
@@ -52,10 +52,14 @@
           .item-text {
             flex-grow: 1;
           }
+        }
 
-          &:hover {
-            color: $color-primary;
-          }
+        .item.current {
+          color: $color-primary;
+        }
+
+        a:hover {
+          color: $color-primary;
         }
       }
     }

@@ -25,7 +25,7 @@ const BlogPostTemplate = ({ data }) => {
       />
       <Navbar title={title}/>
       <div className="center">
-        <PostSidebar posts={allPost} title={title} className="sidebar"/>
+        <PostSidebar currentPostId={post.id} posts={allPost} title={title} className="sidebar"/>
         <div itemScope itemType="https://schema.org/Blog" className="main">
           <Post post={post} />
           <PreviousNextPostNav previous={previous} next={next} />
@@ -50,7 +50,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(sort: { fields: [fields___date], order: DESC }) {
       nodes {
-        excerpt
+        id,
         fields {
           slug,
         }
