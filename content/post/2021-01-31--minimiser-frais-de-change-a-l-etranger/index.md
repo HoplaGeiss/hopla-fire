@@ -24,4 +24,4 @@ Et pour finir, comme si cela n'était pas assez, vous aurez aussi la possibilit�
 
 #### Une application pour smartphone fantastique
 
-Il faut admettre que ces dernières années beaucoup de banques on fait des progrès sur leur application smartphone, mais Transferwise a une longueur d'avance, depuis ses débuts l'application smartphone est irréprochable, c'est vraiment un plaisir de l'utiliser. Vous retrouvez bien sûr des notification push à chaque achat mais aussi la possibilité de bloquer votre carte, de voir votre PIN, et bien d'autre fonctionnalité.\*\*\*\*
+Il faut admettre que ces dernières années beaucoup de banques on fait des progrès sur leur application smartphone, mais Transferwise a une longueur d'avance, depuis ses débuts l'application smartphone est irréprochable, c'est vraiment un plaisir de l'utiliser. Vous retrouvez bien sûr des notification push à chaque achat mais aussi la possibilité de bloquer votre carte, de voir votre PIN, et bien d'autre fonctionnalité.
