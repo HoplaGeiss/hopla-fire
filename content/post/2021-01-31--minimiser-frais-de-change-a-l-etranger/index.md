@@ -1,7 +1,7 @@
 ---
 title: Minimiser les frais de change à l'étranger
 description: Arreter de vous faire arnaquer par votre banque lorsque vous voyager à l'étranger
-cover: ./exchange-rate-currency.jpg
+cover: ./frais-de-change.jpg
 ---
 
 Je paris que plus d'une fois lorsque vous planifiez de voyager à l'étranger vous vous êtes posé la question de s’il ne faudrait pas mieux chercher de la monnaie locale à votre banque avant de partir. Ou lorsque vous êtes sur place, vous avez hésitez devant le terminal de paiement vous avez hésité à payer en euros ou dans la monnaie locale.
@@ -24,4 +24,4 @@ Et pour finir, comme si cela n'était pas assez, vous aurez aussi la possibilit�
 
 #### Une application pour smartphone fantastique
 
-Il faut admettre que ces dernières années beaucoup de banques on fait des progrès sur leur application smartphone, mais Transferwise a une longueur d'avance, depuis ses débuts l'application smartphone est irréprochable, c'est vraiment un plaisir de l'utiliser. Vous retrouvez bien sûr des notification push à chaque achat mais aussi la possibilité de bloquer votre carte, de voir votre PIN, et bien d'autre fonctionnalité.
+Il faut admettre que ces dernières années beaucoup de banques on fait des progrès sur leur application smartphone, mais Transferwise a une longueur d'avance, depuis ses débuts l'application smartphone est irréprochable, c'est vraiment un plaisir de l'utiliser. Vous retrouvez bien sûr des notification push à chaque achat mais aussi la possibilité de bloquer votre carte, de voir votre PIN, et bien d'autre fonctionnalité.\*\*\*\*

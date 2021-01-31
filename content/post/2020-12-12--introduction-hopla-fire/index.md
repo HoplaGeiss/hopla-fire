@@ -44,7 +44,7 @@ Comme le laisse sous-entendre, la règle des 4% se base sur un retour d'investis
 
 Voici des liens vers quelques un de mes post pour avoir plus de détails :
 
-- [Combien vous faut-il économiser avant de pouvoir prendre votre retraite](/economies-avant-independance-financiere)
+- [Combien vous faut-il économiser avant de pouvoir prendre votre retraite](/combien-economiser-avant-la-retraite)
 - [Combien de temps vous faudrat-il pour atteindre l'indépendance financière](/temps-avant-independance-financiere)
 - [la magie des intérêts cumulé](/magie-des-interets-cumule)
 - [Pourquoi je ne compte pas sur la caisse de retraite](/pourquoi-ne-pas-compter-sur-la-caisse-de-retraite)
@@ -64,8 +64,8 @@ Mieux investir :
 
 Dépenser moins :
 
+- [Minimiser les frais de change à l'étranger](/minimiser-frais-de-change-a-l-etranger)
 - Analyser ses dépenses (en progrès)
 - Choisir un compte bancaire sans frais (en progrès)
 - Choisir une carte de crédit avec de bons avantages (en progrès)
 - Acheter ou louer un appartement / une maison (en progrès)
-- Dépenser moins en frais bancaires à l'étranger (en progrès)
