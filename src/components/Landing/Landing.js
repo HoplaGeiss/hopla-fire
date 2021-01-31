@@ -1,7 +1,7 @@
-import './Landing.scss';
+import "./Landing.scss";
 
-import Img from 'gatsby-image';
-import React from 'react';
+import Img from "gatsby-image";
+import React from "react";
 
 const Landing = ({ cover, title, description }) => {
   return (

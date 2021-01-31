@@ -16,6 +16,7 @@
     "gatsby-plugin-sass": "^2.8.0",
     "gatsby-plugin-sharp": "^2.8.0",
     "gatsby-remark-copy-linked-files": "^2.4.0",
+    "gatsby-remark-external-links": "0.0.4",
     "gatsby-remark-images": "^3.5.1",
     "gatsby-remark-responsive-iframe": "^2.5.0",
     "gatsby-remark-smartypants": "^2.4.0",
@@ -36,6 +37,8 @@
   "license": "0BSD",
   "main": "n/a",
   "scripts": {
+    "prettier:check": "prettier --check src",
+    "prettier:write": "prettier --write src",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
