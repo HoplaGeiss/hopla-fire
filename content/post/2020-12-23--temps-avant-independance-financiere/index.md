@@ -74,3 +74,5 @@ Faisons rapidement un tableau récapitulatif des différences entre 4% et 7% de 
 | 10                                     | 68%                              | 65%                              |
 
 Il y a beaucoup de ressources sur internet de la communauté FIRE, notamment sur des sites américains, où les internautes comparent leur taux d'épargne. Tout dépend bien-sûr de votre situation familiale, de votre localisation, de votre travail et de vos valeurs. Mais en règle générale, les taux varient entre 35% et 65%. Donc avec 4% de taux d'intérêt, cela serait entre 10.98 et 26.77 années pour être indépendant financièrement. Ce qui est déjà beaucoup mieux que les 40 années du schéma classique.
+
+Voici le tableur que j'ai utilisé pour mes calculs: http://bit.ly/2YNX7Y2

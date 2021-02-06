@@ -14,3 +14,5 @@ C'est un indice d'une capitalisation colossale de plus de 31 billions, qui suit 
 **Le rendement annuel du S&P 500 sur les dernières 60 années a été de 8%.**
 
 Traduisons cela en terme d'intérêts cumulés. Si quelqu'un avait investi 1,000€ chaque année dans S&P 500 depuis les dernières 60 années, il aurait maintenant 1,253,213€, comparé à simplement 60,000€, s'il n'avait rien investi.
+
+Voici le tableur que j'ai utilisé pour mes calculs: http://bit.ly/39QMYjv
