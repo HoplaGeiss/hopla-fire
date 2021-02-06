@@ -1,7 +1,7 @@
 ---
 title: La magie des intérêts cumulés
 description: "Lorsque vous investissez votre argent, ce n'est qu'une question de temps avant que votre argent ne travaille plus dur que vous!"
-cover: ./interets-cumules.png
+cover: ./magie-des-interets-cumules.png
 ---
 
 Dans l'introduction de mon blog, je vous ai promis de ne pas parler de méthode magique et que l'indépendance financière passait par la persévérance et les compromis. Mais je dois bien admettre que les intérêts cumulés ont quelque chose de magique. Le terme 'intérêt cumulé' veut tout simplement dire que l'épargnant réinvestit,chaque année, les intérêts de l'année précédente.

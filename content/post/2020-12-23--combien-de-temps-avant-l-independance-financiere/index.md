@@ -1,7 +1,7 @@
 ---
 title: Combien de temps avant l'indépendance financière
 description: "Combien de temps vous faudra-il pour atteindre l'indépendance financière"
-cover: ./temps-vs-argent.png
+cover: ./combien-de-temps-avant-l-independance-financiere.png
 ---
 
 Comme expliqué dans mon [post précédent](/combien-economiser-avant-la-retraite), le plus important pour atteindre l'indépendance financière est votre dépense annuelle, puisque votre objectif est d'atteindre 25 fois celle-ci.

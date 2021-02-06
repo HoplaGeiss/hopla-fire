@@ -1,7 +1,7 @@
 ---
 title: Choisir au mieux sa banque
 description: Trouver une banque sans frais inutiles et avec les meilleurs services
-cover: ./meilleur-banque.png
+cover: ./choisir-au-mieux-sa-banque.png
 ---
 
 Déjà que les banques se font des sommes d'argent colossales en investissant l'argent que nous déposons dans sur nos comptes, je trouve que c'est le comble de nous demander de payer un abonnement annuel. Cela devrait presque être aux banques de nous payer pour déposer notre argent chez eux !

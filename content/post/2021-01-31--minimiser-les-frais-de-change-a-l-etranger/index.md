@@ -1,7 +1,7 @@
 ---
 title: Minimiser les frais de change à l'étranger
 description: Arrêter de vous faire arnaquer par votre banque lorsque vous voyagez à l'étranger
-cover: ./frais-de-change.jpg
+cover: ./minimiser-les-frais-de-change-a-l-etranger.jpg
 ---
 
 Je parie que plus d'une fois, lorsque vous planifiez de voyager à l'étranger, vous vous êtes posés la question de s’il ne faudrait pas mieux chercher de la monnaie locale chez votre banque avant de partir. Ou bien lorsque vous êtes sur place, vous avez hésité devant le terminal de paiement à payer en euros ou dans la monnaie locale.

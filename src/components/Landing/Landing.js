@@ -15,7 +15,7 @@ const Landing = ({ cover, title, description }) => {
         {description}
       </h2>
       <p className="introduction">
-        Nouveaux sur le site? Commencez <Link to="/introduction-hopla-fire">ici</Link>
+        Nouveaux sur le site? Commencez <Link to="/introduction-qu-est-ce-qu-hoplafire">ici</Link>
       </p>
     </div>
   );

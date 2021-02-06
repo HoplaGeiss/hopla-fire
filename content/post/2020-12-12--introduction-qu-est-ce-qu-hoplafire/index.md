@@ -1,7 +1,7 @@
 ---
 title: Introduction - qu'est ce qu'HoplaFire
 description: "HoplaFire - Indépendance financière & retraite anticipée"
-cover: ./feu.png
+cover: ./introduction-qu-est-ce-qu-hoplafire.png
 ---
 
 Pour résumer simplement, le but d'HoplaFire et de la communauté FIRE (Financial Independence Retire Early - Traduction : Indépendance financière, retraite anticipée) est d'éviter le schéma classique :
@@ -27,7 +27,7 @@ Prenons quelques exemples :
 | 2k                | 24k              | 600k                |
 | 3k                | 36k              | 900k                |
 
-Je ne sais pas pour vous, mais lorsque je suis tombé sur un exemple similaire, j'étais célibataire avec des dépenses raisonnables, j'étais donc plutôt proche du premier exemple et je me suis dit "impossible !! Si j'épargne un peu moins de 500k, je pourrais arrêter de travailler ?". Si vous êtes sceptiques comme je l'étais, vous pouvez lire plus en détails mon post sur la [règle des 4%](/economies-avant-independance-financiere). En résumé la règle des 4% vient du fait que si vous arrivez à épargner 25 fois votre dépense annuelle, vous devriez être à même de générer suffisamment de revenu passif grâce à vos investissements pour ne pas entamer votre capital.
+Je ne sais pas pour vous, mais lorsque je suis tombé sur un exemple similaire, j'étais célibataire avec des dépenses raisonnables, j'étais donc plutôt proche du premier exemple et je me suis dit "impossible !! Si j'épargne un peu moins de 500k, je pourrais arrêter de travailler ?". Si vous êtes sceptiques comme je l'étais, vous pouvez lire plus en détails mon post sur la [règle des 4%](/combien-economiser-avant-la-retraite). En résumé la règle des 4% vient du fait que si vous arrivez à épargner 25 fois votre dépense annuelle, vous devriez être à même de générer suffisamment de revenu passif grâce à vos investissements pour ne pas entamer votre capital.
 
 Avez-vous remarqué, j'ai mentionné le mot investissement ? Et oui, la clé ici c'est d'investir votre capital pour que les intérêts dépassent vos dépenses. Encore une fois, rassurez-vous, je ne vais pas vous parler de comment j'ai investi toute mes économies dans Amazon lorsque Jeff Bezos travaillait de son garage ou de comment j'ai tout misé sur les bitcoins en 2014 lorsqu’ils ne valaient rien.
 
@@ -35,11 +35,11 @@ Comme le laisse sous-entendre, la règle des 4% se base sur un retour d'investis
 
 Voici des liens vers quelques un de mes post pour avoir plus de détails :
 
-- [Combien vous faut-il économiser avant de pouvoir prendre votre retraite](/combien-economiser-avant-la-retraite)
-- [Combien de temps vous faudrat-il pour atteindre l'indépendance financière](/temps-avant-independance-financiere)
-- [la magie des intérêts cumulé](/magie-des-interets-cumule)
-- [Pourquoi je ne compte pas sur la caisse de retraite](/pourquoi-ne-pas-compter-sur-la-caisse-de-retraite)
-- [Rendement annuel de la bourse depuis les dernière 60 années](/rendement-historique-bourse)
+- [Combien économiser avant la retraite](/combien-economiser-avant-la-retraite)
+- [Combien de temps avant l'indépendance financière](/combien-de-temps-avant-l-independance-financiere)
+- [la magie des intérêts cumulés](/magie-des-interets-cumules)
+- [Alternative à la caisse de retraite](/alternative-a-la-caisse-de-retraite)
+- [Rendement historique de la bourse](/rendement-historique-de-la-bourse)
 
 Certains de mes post les plus intéressant sur ce blog vont être au sujet de petites astuces pour vous permettre d'atteindre votre indépendance financière plus rapidement. Il y a deux façons d'épargner plus : mieux investir son épargne et dépenser moins.
 
@@ -56,8 +56,8 @@ Mieux investir :
 
 Dépenser moins :
 
-- [Minimiser les frais de change à l'étranger](/minimiser-frais-de-change-a-l-etranger)
-- [Choisir un compte bancaire sans frais](/choisir-la-meilleur-banque)
+- [Minimiser les frais de change à l'étranger](/minimiser-les-frais-de-change-a-l-etranger)
+- [Choisir au mieux sa banque](/choisir-au-mieux-sa-banque)
 - Analyser ses dépenses (en progrès)
 - Choisir une carte de crédit avec de bons avantages (en progrès)
 - Acheter ou louer un appartement / une maison (en progrès)

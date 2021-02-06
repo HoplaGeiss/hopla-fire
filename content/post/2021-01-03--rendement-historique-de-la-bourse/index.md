@@ -1,7 +1,7 @@
 ---
 title: Rendement historique de la bourse
 description: "Combien pouvez-vous espérer en investissant votre argent en bourse sur le long terme?"
-cover: ./bourse.jpeg
+cover: ./rendement-historique-de-la-bourse.jpeg
 ---
 
 Pour faire fructifier vos économies, vous avez plusieurs options dont investir en action / index, investissement locatif, investissement en crypto-monnaie, investissement en minerai, etc... L'un des plus importants facteurs de comparaison est bien évidemment le rendement annuel.
