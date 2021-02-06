@@ -1,6 +1,6 @@
 ---
-title: Choisir la meilleure banque
-description: Arrêter de vous faire arnaquer par votre banque en frais inutiles
+title: Choisir au mieux sa banque
+description: Trouver une banque sans frais inutiles et avec les meilleurs services
 cover: ./meilleur-banque.png
 ---
 

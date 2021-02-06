@@ -1,5 +1,5 @@
 ---
-title: Rendement de la bourse
+title: Rendement historique de la bourse
 description: "Combien pouvez-vous espérer en investissant votre argent en bourse sur le long terme?"
 cover: ./bourse.jpeg
 ---
