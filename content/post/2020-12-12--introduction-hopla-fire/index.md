@@ -54,6 +54,7 @@ Certains de mes post les plus intéressant sur ce blog vont être au sujet de pe
 
 Mieux investir :
 
+- [Traquez vos investissements en bourse](/traquez-vos-investissements-en-bourse)
 - Investissement locatif vs investissement boursier vs investissement en crypto monnaie (en progrès)
 - Les meilleures plateformes pour investir en bourse (en progrès)
 - Dollar cost averaging (en progrès)

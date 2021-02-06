@@ -32,4 +32,28 @@
       left: calc(50% - 300px);
     }
   }
+
+  .introduction {
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    font-size: 1em;
+    margin: 0 20px;
+    line-height: 1.3;
+    width: 100%;
+
+    @media (min-width: $md) {
+      font-size: 1.1em;
+    }
+
+    a {
+      text-decoration: none;
+      color: $color-primary;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }

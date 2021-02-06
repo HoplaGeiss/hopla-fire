@@ -54,8 +54,10 @@
   }
 
   em {
-    padding: 1px;
+    padding: 1px 3px;
     background-color: #f0f0f0;
+    font-style: normal;
+    font-family: $fontFamily-mono;
   }
 
   a {

@@ -1,5 +1,6 @@
 import "./Landing.scss";
 
+import { Link } from "gatsby";
 import Img from "gatsby-image";
 import React from "react";
 
@@ -13,6 +14,9 @@ const Landing = ({ cover, title, description }) => {
       <h2 className="description" itemProp="description abstract">
         {description}
       </h2>
+      <p className="introduction">
+        Nouveaux sur le site? Commencez <Link to="/introduction-hopla-fire">ici</Link>
+      </p>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 ---
 title: Choisir la meilleur banque
 description: Arreter de vous faire arnaquer par votre banque en frais inutile
-cover: ./frais-de-change.png
+cover: ./meilleur-banque.png
 ---
 
 Déjà que les banques se font des sommes d'argent colossales en investissant l'argent que nous déposons dans sur nos comptes, je trouve que c'est le comble de nous demander de payer un abonnement annuel. Ce devrait presque être les banques qui nous payent pour déposer notre argent chez eux !
